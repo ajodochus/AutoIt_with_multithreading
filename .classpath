@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_65"/>
 	<classpathentry kind="lib" path="lib/AutoItX4Java.jar"/>
 	<classpathentry kind="lib" path="lib/jacob.jar"/>
+	<classpathentry kind="lib" path="E:/projects/selenium/selenium-server-standalone-2.48.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
