@@ -4,7 +4,7 @@ import com.jacob.com.LibraryLoader;
 
 public class CalcTest {
 
-	public static void main(String[] args) throws InterruptedException {
+	public  CalcTest() throws InterruptedException {
 		String jacobDllVersionToUse;
 		if (jvmBitVersion().contains("32")) {
 			jacobDllVersionToUse = "jacob-1.18-x86.dll";
