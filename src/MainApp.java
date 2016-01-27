@@ -22,9 +22,10 @@ public class MainApp {
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(30, SECONDS).pollingEvery(2, SECONDS);
 
 		NewThread newThread = new NewThread();
+		Thread childThread = new Thread(newThread, "");
+		childThread.start();
 		
-		
-		// start child Thread
+	
 
 		for (int i = 0; i < 20; i++) {
 			System.out.print(driver.getTitle().toString());
@@ -39,10 +40,6 @@ public class MainApp {
 		
 		driver.close();
 
-		// System.out.println("th name: " + newThread.toString());
-
-		// Stop Child Thread
-		newThread.stopThread();
 		
 		
 	
